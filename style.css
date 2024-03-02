@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    
+}
+
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 3em;
+    transition: 0s ease-in-out ;
+    color:#4d004d;
+    
+
+}
+
+
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 101vh;
+    background: url(/imge/wire-frame-1311161_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+
+    align-items: center;
+    padding: 30px 100px;
+}
+.content {
+    max-width: 100%;
+    color: #555;
+}
+.content h2 {
+    font-size: 3em;
+    color: #cfd8d58a;
+}
+.content h2 span {
+    color: #6f6129fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h4 {
+    font-size: 2em;
+    color: yellowgreen;
+}
+.content p {
+    padding: 10px 0 40px 0;
+}
+
+
+nav{
+    position: relative;
+    width: 100%px;
+    height: 50px;
+    background: #222;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+
+}
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    color: white;
+    text-decoration:none;
+    padding: 32px;
+    z-index: 1;
+    
+
+
+}
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(45deg, #2e3192, #1bffff);
+    border-radius: 8px;
+    transition: .5s ease;
+
+
+}
+nav a:nth-child(1):hover~span {
+    left: 0;
+    
+
+}
+nav a:nth-child(2):hover~span {
+    left: 140px;
+    width: 115px;
+   
+}nav{
+    position: relative;
+    width: 100%px;
+    height: 50px;
+    background: #222;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+
+}
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    color: white;
+    text-decoration:none;
+    padding: 32px;
+    z-index: 1;
+    
+
+
+}
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(45deg, #1aa850, #cdac0a);
+    border-radius: 8px;
+    transition: .5s ease;
+
+
+}
+
+nav a:nth-child(1):hover~span {
+    right: 50px;
+    width: 100%;   
+
+}
+nav a:nth-child(2):hover~span {
+    right: 400px;
+    width: 500px;
+}
+nav a:nth-child(3):hover~span {
+    right: 400px;
+    width: 500px;
+
+    
+
+}
+nav a:nth-child(4):hover~span {
+    
+    right: 400px;
+    width: 500px;
+    
+
+}
+nav a:nth-child(5):hover~span {
+    right: 400px;
+    width: 550px;
+    
+    
+
+}
+footer{
+    height: 100%;
+    width: 100%;
+    background-image: url(/html/imge/universe-1566161_1280.jpg);
+}
